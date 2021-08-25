@@ -1,0 +1,13 @@
+p {
+    font-family: sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.debug {
+    background-color: lightcoral;
+    border: 5px solid red;
+}
