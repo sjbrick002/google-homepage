@@ -8,38 +8,42 @@
     </head>
     <body>
         <!-- This will be the top portion of the page -->
-        <div>
+        <nav class="container-top">
             <!-- This will be the top-left portion -->
-            <div>
-                <p><a>About</a></p>
-                <p><a>Store</a></p>
+            <div class=" container-top-left">
+                <p><a href="about.ex">About</a></p>
+                <p><a href="store.ex">Store</a></p>
             </div>
             <!-- This will be the top-right portion -->
-            <div>
-                <p><a>Gmail</a></p>
-                <p><a>Images</a></p>
-                <img>
-                <img>
+            <div class="container-top-right">
+                <p><a href="gmail.ex">Gmail</a></p>
+                <p><a href="images.ex">Images</a></p>
+                <a class="grid" href="https://web.archive.org/web/20191130234759/https://www.google.com/intl/en/about/products?tab=wh"></a>
+                <button class="sign-in"><b>Sign In</b></button>
             </div>
-        </div>
-        <!-- This will be the logo and searchbar portion! -->
-        <div>
+        </nav>
+        <!-- This will be the logo and searchbar portion -->
+        <div class="container-main">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google.">
-            <input type="text">
+            <input class="searchbar" type="text">
         </div>
         <!-- This will be the center portion with button under the search bar -->
-        <div>
+        <div class="container-mid">
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
         </div>
         <!-- This will be the bottom portion of the page -->
-        <div>
-            <p><a>Advertising</a></p>
-            <p><a>Business</a></p>
-            <p><a>How Search Works</a></p>
-            <p><a>Privacy</a></p>
-            <p><a>Terms</a></p>
-            <p><a>Settings</a></p>
-        </div>
+        <footer class="container-bottom">
+            <div class="container-bottom-left">
+                <p><a href="advertising.ex">Advertising</a></p>
+                <p><a href="business.ex">Business</a></p>
+                <p><a href="searchworks.ex">How Search Works</a></p>
+            </div>
+            <div class="container-bottom-right">
+                <p><a href="privacy.ex">Privacy</a></p>
+                <p><a href="terms.ex">Terms</a></p>
+                <p><a href="settings.ex">Settings</a></p>
+            </div>
+        </footer>
     </body>
 </html>

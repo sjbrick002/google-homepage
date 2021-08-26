@@ -1,13 +1,102 @@
 p {
     font-family: sans-serif;
+    padding: 10px;
+    font-size: 12px;
+    color: gray
+}
+
+button {
+    margin: 15px 20px;
+    border-color: transparent;
+    padding: 5px 25px;
+    background-color: #e0e0e0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a::before {
+    color: black;
+}
+
+a::after {
+    color: black;
 }
 
 a:hover {
     text-decoration: underline;
-    color: blue;
 }
 
 .debug {
     background-color: lightcoral;
     border: 5px solid red;
+}
+
+.sign-in {
+    color: white;
+    background-color: rgb(85, 129, 250);
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+/* .grid {
+    background-image: url('//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 500px 5px;
+    border-color: black;
+} */
+
+.container-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-top-left {
+    display: flex;
+}
+
+.container-top-right {
+    display: flex;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 125px 0 0;
+}
+
+.searchbar {
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.container-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.container-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+}
+
+.container-bottom-left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.container-bottom-right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
