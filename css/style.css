@@ -41,11 +41,13 @@ a:hover {
     font-family: sans-serif;
 }
 
-/* .grid {
+.grid {
     background-image: url('//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
-    background-size: 500px 5px;
-    border-color: black;
-} */
+    background-position: -132px -38px;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
 
 .container-top {
     display: flex;
